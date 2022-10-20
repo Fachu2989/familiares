@@ -13,4 +13,5 @@ def family(request, nombre, edad, nacimiento):
 def lista_family(request):
     
     lista=Family.objects.all()
-    return render(request,"familiares.html",{"familiares": lista})
+
+    return render(request, "familiares.html", {"familiares": lista})
