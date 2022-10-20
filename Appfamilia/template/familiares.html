@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Familiares</title>
     <link href="css/normalize.css">
-    <link href="css/style.css">
 </head>
 <body>
     <header>
@@ -14,13 +13,11 @@
             Familiares
         </h1>
     </header>
-    <ul>
-        
+    
+<ul>
         {% for family in familiares %}
             <li>{{family.nombre}} - {{family.edad}} - {{family.nacimiento}}</li>
-
         {% endfor %}
-            
-    </ul>  
+</ul>
 </body>
 </html>
