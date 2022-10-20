@@ -55,7 +55,7 @@ ROOT_URLCONF = 'familiares.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ["C:/Users/Facu/Desktop/PythonProyecto1/primer_MVT/familiares/Appfamilia/template/familiares.html"],
+        'DIRS':["C:/Users/Facu/Desktop/PythonProyecto1/primer_MVT/familiares/Appfamilia/template"],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
